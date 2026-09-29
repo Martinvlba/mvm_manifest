@@ -12,8 +12,12 @@
 	/>
 
 	<!-- Tools -->
+	<project path="build/multitool" name="Martinvlba/mvm_build_multitool">
+		<linkfile src="multitool.sh" dest="build/multitool.sh" />
+	<project/>
 
 	<!-- Sources -->
+	<project path="source/mvm_manifest" name="Martinvlba/mvm_manifest" />
 	<project path="source/mvm" name="Martinvlba/mvm_source_mvm" />
 	<project path="source/qemu" name="Martinvlba/mvm_source_qemu" />
 </manifest>
