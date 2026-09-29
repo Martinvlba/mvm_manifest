@@ -8,13 +8,12 @@
 	<default
 		revision="mtesting"
 		remote="github"
-		sync-j="4"
-	/>
+		sync-j="4"/>
 
 	<!-- Tools -->
 	<project path="build/multitool" name="Martinvlba/mvm_build_multitool">
 		<linkfile src="multitool.sh" dest="build/multitool.sh" />
-	<project/>
+	</project>
 
 	<!-- Sources -->
 	<project path="source/mvm_manifest" name="Martinvlba/mvm_manifest" />
