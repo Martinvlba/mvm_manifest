@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remote spec -->
+	<remote
+		name="github"
+		fetch=".."
+		review="github.com" />
+	<default
+		revision="mtesting"
+		remote="github"
+		sync-j="4"
+	/>
+
+	<!-- Tools -->
+
+	<!-- Sources -->
+	<project path="source/mvm" name="Martinvlba/mvm_source_mvm" />
+	<project path="source/qemu" name="Martinvlba/mvm_source_qemu" />
+</manifest>
